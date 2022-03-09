@@ -12,3 +12,11 @@ working = [true, true, false, true, true]
 working.unshift(false)
 
 # In the ticket_prices array, the index position of the integer 40 is 2, and the value of the element in index position 4 is 60. In the deposit_paid array, there are 4 elements and the value of the element in index position 2 is 1400.00.
+
+# I learned about the Array method clear. This method deletes all of the elements in an array. Below is an example:
+# irb(main):001:0> students = ["Gwendolyn", "Oliver", "Nick", "Cara"]
+# => ["Gwendolyn", "Oliver", "Nick", "Cara"]
+# irb(main):002:0> students.clear
+# => []
+# irb(main):003:0> students
+# => []
